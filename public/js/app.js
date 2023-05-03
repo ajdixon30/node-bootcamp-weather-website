@@ -23,7 +23,7 @@ weatherForm.addEventListener('submit', (e) => {
                 // Insert the location from the fetch request to the first paragraph element
                 messageOne.textContent = data.location;
                 // Insert the forecast from the fetch request to the second paragraph element
-                messageTwo.textContent = `It is ${data.weather.temperature} degrees today. It feels like ${data.weather.feelslike} degrees.`;
+                messageTwo.textContent = `${data.weather.weather_descriptions[0]}: It is currently ${data.weather.temperature} degrees. It feels like ${data.weather.feelslike} degrees. There is ${data.weather.humidity}% humidity.`;
             }
         })
     })
