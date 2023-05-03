@@ -70,14 +70,6 @@ app.get('/weather', (req, res) => {
             })
         }
     })
-
-    // const location = req.query.address;
-    // const forecast = 'Bright and Sunny';
-
-    // res.send({
-    //     location,
-    //     forecast
-    // })
 })
 
 app.get('/products', (req, res) => {
