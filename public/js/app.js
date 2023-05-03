@@ -1,5 +1,3 @@
-// console.log('Client-side JavaScript is loaded in')
-
 // Select the search form in the index.hbs template
 const weatherForm = document.querySelector('form');
 // Select the "location" input in the index.hbs template
